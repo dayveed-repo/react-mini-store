@@ -1,0 +1,36 @@
+.product{
+    padding: 20px;
+}
+.product img{
+    height: 35vh;
+    object-fit: contain;
+    box-shadow: 3px 4px 5px grey;
+}
+.price, h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product div{
+    width: 30vw;
+}
+
+.product button{
+    padding: 10px 35px;
+    margin-right: 10px;
+    background-color: rgb(30, 110, 230);
+    border: none;
+    outline-width: 0;
+    box-shadow: 2px 2px 3px grey;
+    color: white;
+    border-radius: 20px;
+}
+.product button:hover {
+    box-shadow: 5px 6px 7px rgb(102, 101, 101);
+    cursor: pointer;
+}
+.product__view{
+    color: rgb(90, 133, 199) !important;
+    background: transparent !important;
+    border: 1px solid rgb(30, 110, 230) !important;
+}

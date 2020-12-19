@@ -1,0 +1,20 @@
+.Authenticate {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(241, 239, 239);
+}
+
+.Switcher {
+    display: flex;
+}
+.Switcher h2 {
+    padding: 10px 60px;
+    cursor: pointer;
+}
+.Auth__output {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 3px 5px rgb(107, 107, 107);
+}

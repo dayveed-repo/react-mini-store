@@ -1,0 +1,39 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(10, 115, 177);
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.Navbar h1{
+    text-decoration: none !important;
+    color: white;
+}
+.saerchContainer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(106, 162, 207);
+    border-radius: 10px;
+}
+.saerchContainer input{
+    border: none;
+    background: transparent;
+    padding: 5px 10px;
+    outline-width: 0;
+    color: white;
+    flex: 1;
+    width: 20vw;
+}
+.saerchContainer .MuiSvgIcon-root{
+    color: white;
+    padding: 10px;
+}
+.saerchContainer .MuiSvgIcon-root:hover{
+    cursor: pointer;
+}
+.Nav__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.15;
+}
